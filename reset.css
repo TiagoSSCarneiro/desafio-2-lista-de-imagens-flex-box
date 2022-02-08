@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 17px;
+    
+}
