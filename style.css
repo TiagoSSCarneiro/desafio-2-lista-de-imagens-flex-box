@@ -1,22 +1,28 @@
 
-.container-image {
-    margin-top: 50px;
+
+.container-image .image {
+    min-width: 335px;
+    min-height: 432px;
+    
 }
 
 .container-image ul {
-    display: flex;
-    justify-content: space-between;
-    
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   width: 100%;
+   padding-top: 10px;
+
 }
 
 .container-image .image-1 {
     background: url(/lista-imagens/6.jpg) center center no-repeat;
     background-size: cover;
-    width: 335px;
-    height: 432px;
+
 }
 
-.container-image .image-1 {
+.container-image .image {
     position: relative;
 }
 
@@ -24,7 +30,7 @@
     color: #fff;
     padding: 10px;
     line-height: 2rem;
-    
+
 }
 
 .container-image .image-1 .texto-sobre {
@@ -36,19 +42,16 @@
 .container-image .image-2 {
     background: url(/lista-imagens/3.jpg) center center no-repeat;
     background-size: cover;
-    width: 335px;
-    height: 432px;
+
 }
 
-.container-image .image-2 {
-    position: relative;
-}
+
 
 .container-image .image-2 .texto-sobre {
     color: #fff;
     padding: 10px;
     line-height: 2rem;
-    
+
 }
 
 .container-image .image-2 .texto-sobre {
@@ -60,19 +63,16 @@
 .container-image .image-3 {
     background: url(/lista-imagens/4.jpg) center center no-repeat;
     background-size: cover;
-    width: 335px;
-    height: 432px;
+
 }
 
-.container-image .image-3 {
-    position: relative;
-}
+
 
 .container-image .image-3 .texto-sobre {
     color: #fff;
     padding: 10px;
     line-height: 2rem;
-    
+
 }
 
 .container-image .image-3 .texto-sobre {
@@ -84,19 +84,15 @@
 .container-image .image-4 {
     background: url(/lista-imagens/5.jpg) center center no-repeat;
     background-size: cover;
-    width: 335px;
-    height: 432px;
+
 }
 
-.container-image .image-4 {
-    position: relative;
-}
 
 .container-image .image-4 .texto-sobre {
     color: #fff;
     padding: 10px;
     line-height: 2rem;
-    
+
 }
 
 .container-image .image-4 .texto-sobre {
@@ -107,18 +103,18 @@
 
 @media (max-width:425px) {
 
-    .container-image {
-        margin-top: 0;
-        
+    .container-image .image {
+      max-width: 100%;
+
+
     }
     .container-image ul {
         display: flex;
-        flex-direction: column; 
-
-        
+        justify-content: center;
+    
     }
 
-    
+
 
 }
 
