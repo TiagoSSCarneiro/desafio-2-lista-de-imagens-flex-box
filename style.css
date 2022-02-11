@@ -5,7 +5,6 @@
    padding-top: 10px;
    justify-content: center;
    gap: 20px;
-
 }
 
 .container-image .image img {
@@ -27,23 +26,13 @@
     line-height: 30px;
 }
 
-
-
-
 @media (max-width:425px) {
 
     .container-image .image {
       width: 100%;
-
-
     }
     .container-image ul {
         justify-content: center;
-    
     }
 
 }
-
-
-
-
